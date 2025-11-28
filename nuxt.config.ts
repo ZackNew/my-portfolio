@@ -42,7 +42,7 @@ export default defineNuxtConfig({
         { property: "og:url", content: "https://zekariyas.com" },
 
         { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:title', content: 'John Doe - Full Stack Developer Portfolio' },
+        { name: 'twitter:title', content: 'Zekariyas Mulugeta - Full Stack Developer Portfolio' },
         { name: 'twitter:description', content: 'Professional portfolio showcasing projects, experience, and expertise in web development' },
         { name: 'twitter:image', content: '/og-image.png' },
       ],
