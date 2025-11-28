@@ -23,7 +23,7 @@
   
   body {
     @apply text-gray-800 bg-white antialiased;
-    background-image: radial-gradient(circle, #e5e7eb 1px, transparent 1px);
+    background-image: radial-gradient(circle, #e5e7eb 1.2px, transparent 1.2px);
     background-size: 24px 24px;
     background-position: 0 0;
   }
