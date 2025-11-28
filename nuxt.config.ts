@@ -39,7 +39,12 @@ export default defineNuxtConfig({
             "Professional portfolio showcasing projects, experience, and expertise in web development",
         },
         { property: "og:image", content: "/og-image.png" },
-        { property: "og:url", content: "https://zekariyas.com" }
+        { property: "og:url", content: "https://zekariyas.com" },
+
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:title', content: 'John Doe - Full Stack Developer Portfolio' },
+        { name: 'twitter:description', content: 'Professional portfolio showcasing projects, experience, and expertise in web development' },
+        { name: 'twitter:image', content: '/og-image.png' },
       ],
       link: [
         { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
