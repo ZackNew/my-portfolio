@@ -15,7 +15,7 @@ export default defineEventHandler(async (event) => {
     }
 
     const data = await resend.emails.send({
-      from: "onboarding@resend.dev",
+      from: "contact@zekariyas.com",
       to: "zekariyasmulugeta91@gmail.com",
       subject: `New Contact Form Submission from ${name}`,
       html: `
